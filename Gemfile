@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+#For bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
