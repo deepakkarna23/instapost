@@ -50,3 +50,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 #For user authentication
 gem 'devise'
+
+#For pic upload
+gem 'carrierwave'
