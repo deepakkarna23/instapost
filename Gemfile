@@ -53,3 +53,6 @@ gem 'devise'
 
 #For pic upload
 gem 'carrierwave'
+
+#For form
+gem 'simple_form'
