@@ -56,3 +56,6 @@ gem 'carrierwave'
 
 #For form
 gem 'simple_form'
+
+#For upvoting feature
+gem 'acts_as_votable', '~> 0.10.0'

@@ -10,4 +10,6 @@ class User < ActiveRecord::Base
   
   has_many :comments
   
+  acts_as_voter
+  
 end
