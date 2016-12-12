@@ -1,7 +1,11 @@
-<h1>Edit Post</h1>
-
-<%= simple_form_for @post do |f| %>
-  <%= f.input :photo %>
-  <%= f.input :description %>
-  <%= f.submit 'Update', class: 'btn btn-default btn-block' %>
-<% end %>
+<div class="edit_box">
+  <div class="inner">
+    <h1>Edit Post</h1>
+    <hr>
+    <%= simple_form_for @post do |f| %>
+      <%= f.input :photo %>
+      <%= f.input :description %>
+      <%= f.submit 'Update', class: 'btn btn-success btn-block' %>
+    <% end %>
+  </div>
+</div>

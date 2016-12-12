@@ -20,21 +20,38 @@ nav {
   margin: 0 20px;
 }
 
+.favicon{
+  height:40px; 
+  width:30px;
+  padding-bottom:4px;
+  margin-right:4px;
+}
+
 .nav_wrapper {
   line-height: 78px;
 }
+
 .photo {
   width: 100%;
   max-height: 100%;
+}
+
+.posts{
+  padding-top:60px;
+  margin: 0 auto;
+  max-width: 650px;
+  width: 100%;
 }
 
 .post_box {
   background-color: white;
   border: 1px solid #edeeee;
   border-radius: 3px;
-  margin: 60px 0px;
-  margin-left: -1px;
-  margin-right: -1px;
+  //margin: 60px 0px;
+  //margin-left: 20%;
+  //margin-right: 20%;
+  margin-bottom: 50px;
+  
 }
 
 .post_header{
@@ -92,7 +109,7 @@ nav {
 .prof_pic {
   border-radius: 50%;
   height: 150px;
-  width: 150px;
+  width: 60%;
 }
 
 .prof_pic_small {
@@ -105,4 +122,21 @@ nav {
   .fa {
     font-size: 20px;
   }
+}
+
+.edit_box {
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  margin: 60px 0px;
+  margin-left: 320px;
+  margin-right: 320px;
+}
+
+.inner {
+  padding: 20px;
+}
+
+.field, .actions, .deact {
+  padding: 10px;
 }
