@@ -63,6 +63,4 @@ gem 'acts_as_votable', '~> 0.10.0'
 #For font-awesome
 gem 'font-awesome-sass', '~> 4.6.2'
 
-#For all platform
-gem 'rails_12factor'
 
