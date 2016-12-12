@@ -63,6 +63,6 @@ gem 'acts_as_votable', '~> 0.10.0'
 #For font-awesome
 gem 'font-awesome-sass', '~> 4.6.2'
 
-gem 'will_paginate', '~> 3.0.5'
-gem 'betterlorem', '~> 0.1.2'
-gem 'bootstrap-will_paginate', '~> 0.0.10'
+#For all platform
+gem 'rails_12factor'
+
